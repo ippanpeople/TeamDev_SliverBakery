@@ -8,3 +8,22 @@
 - document : 計画資料、開発経歴書
 - presen : プレゼン資料
 - project : 作品データ
+
+## Team Members
+- rin
+- nagakawa
+- koumoto
+- mitarai
+- tinn
+
+## Duties
+- ? : rin
+- PM : nagakawa, tinn
+- PG :
+	- FE : koumoto
+	- BE : mitarai
+
+## Branch
+- master
+- front
+- back
