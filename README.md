@@ -29,6 +29,7 @@
 - back
 
 ## Dev log
+- 2022/10/04 : 
 
 ## Wiki
 - URL : https://ecccomp.backlog.jp/alias/wiki/1140693
