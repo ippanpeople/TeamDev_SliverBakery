@@ -16,8 +16,9 @@
 | Branch | master | manager  | manager |  front  |  back   |
 
 ## Dev log
-- [2022/09/27](https://"ecccomp.backlog.jp/alias/find/2022_SYS2_IESKA_A/1nie7") 
-- [2022/10/04](https://"ecccomp.backlog.jp/alias/find/2022_SYS2_IESKA_A/1nie7") 
+- [manager](https://"codimd.rinlink.jp/FIhG0tG4R6qNbST8Wqstbw") 
+- [front end](https://"codimd.rinlink.jp/amkXc5yfRESwBUXkAgGwpg") 
+- [back end](https://"codimd.rinlink.jp/4LQqkMRhR-qA2MwvbZh9Vw") 
 
 ## Wiki
 - URL : https://ecccomp.backlog.jp/alias/wiki/1140693
