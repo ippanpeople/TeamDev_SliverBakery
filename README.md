@@ -29,6 +29,7 @@
 - back
 
 ## Dev log
+- [2022/09/27](https://"ecccomp.backlog.jp/alias/find/2022_SYS2_IESKA_A/1nie7") 
 - [2022/10/04](https://"ecccomp.backlog.jp/alias/find/2022_SYS2_IESKA_A/1nie7") 
 
 ## Wiki
