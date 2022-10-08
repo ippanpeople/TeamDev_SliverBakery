@@ -16,9 +16,9 @@
 | Branch | master | manager  | manager |  front  |  back   |
 
 ## Dev log
-- [manager](https://"codimd.rinlink.jp/FIhG0tG4R6qNbST8Wqstbw") 
-- [front end](https://"codimd.rinlink.jp/amkXc5yfRESwBUXkAgGwpg") 
-- [back end](https://"codimd.rinlink.jp/4LQqkMRhR-qA2MwvbZh9Vw") 
+- [manager](https://codimd.rinlink.jp/FIhG0tG4R6qNbST8Wqstbw) 
+- [front end](https://codimd.rinlink.jp/amkXc5yfRESwBUXkAgGwpg) 
+- [back end](https://codimd.rinlink.jp/4LQqkMRhR-qA2MwvbZh9Vw) 
 
 ## Wiki
 - URL : https://ecccomp.backlog.jp/alias/wiki/1140693
