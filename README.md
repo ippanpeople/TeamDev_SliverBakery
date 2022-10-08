@@ -15,6 +15,14 @@
 | Duties |   ?    |    PM    |   PM    | PG(FE)  | PG(BE)  |
 | Branch | master | manager  | manager |  front  |  back   |
 
+## Workflow
+```flow
+    start=>start: 最初ミーティング：個人の進捗と困難点をシェア
+    work=>operation: 各自作業
+    end=>end: まとめミーティング：当日作業の状況をシェアしながらmemo siteにLog、TODO Listを記入
+    start->work->end
+```
+
 ## Dev log
 - [manager](https://codimd.rinlink.jp/FIhG0tG4R6qNbST8Wqstbw) 
 - [front end](https://codimd.rinlink.jp/amkXc5yfRESwBUXkAgGwpg) 
