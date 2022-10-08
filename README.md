@@ -21,7 +21,6 @@
     work=>operation: 各自作業
     end=>end: まとめミーティング：当日作業の状況をシェアしながらmemo siteにLog、TODO Listを記入
     start->work->end
-```
 
 ## Dev log
 - [manager](https://codimd.rinlink.jp/FIhG0tG4R6qNbST8Wqstbw) 
