@@ -15,6 +15,14 @@
 | Duties |   ?    |    PM    |   PM    | PG(FE)  | PG(BE)  |
 | Branch | master | manager  | manager |  front  |  back   |
 
+## Program Language
+- front
+	- React
+- back
+	- Laravel
+	- Ruby on Rials
+	- Golang Gin
+
 ## Workflow
 ```mermaid
 graph TB
