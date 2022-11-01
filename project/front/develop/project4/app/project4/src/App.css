@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  width: 375px;
+  height: 120px;
+  position: absolute;
+  background: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#icon {
+  background-color: #FFFFFF;
+  position: absolute;
+  width: 72px;
+  height: 67px;
+  left: 152px;
+  top: 43px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo-cart {
+  position: absolute;
+  left: 320px;
+  right: 24px;
+  top: 71px;
+  bottom: 18px;
+
+  background: #FFFFFF;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-.App-link {
-  color: #61dafb;
+#home {
+  position: absolute;
+  left: 12%;
+  right: 81.07%;
+  top: 92.49%;
+  bottom: 4.56%;
+
+  background: #FFFFFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#menu {
+  position: absolute;
+  left: 35.2%;
+  right: 58.13%;
+  top: 92.61%;
+  bottom: 4.68%;
+
+  background: #FFFFFF;
+}
+
+#gift {
+  position: absolute;
+  left: 58.13%;
+  right: 35.2%;
+  top: 92.98%;
+  bottom: 5.05%;
+
+  color: #000000;
+}
+
+#person {
+  position: absolute;
+  left: 81.07%;
+  right: 12%;
+  top: 92.36%;
+  bottom: 4.43%;
+
+  color: #000000;
+}
+
+#home_text {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  left: 43px;
+  top: 784px;
+
+  font-family: 'Post No Bills Jaffna ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+#menu_text {
+  position: absolute;
+  width: 40px;
+  height: 15px;
+  left: 125px;
+  top: 784px;
+
+  font-family: 'Post No Bills Jaffna ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+#gift_text {
+  position: absolute;
+  width: 40px;
+  height: 15px;
+  left: 211px;
+  top: 784px;
+
+  font-family: 'Post No Bills Jaffna ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+#person_text {
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  left: 292px;
+  top: 784px;
+
+  font-family: 'Post No Bills Jaffna ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 15px;
+  color: #000000;
 }
