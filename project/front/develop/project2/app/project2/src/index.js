@@ -26,7 +26,7 @@ class ValueInput extends React.Component {
 
 const element = (
   <div>
-    <ValueInput value="5" /> + <ValueInput value="8" /> = <ValueAnswer value="0" />
+    <ValueInput value="4" /> + <ValueInput value="8" /> = <ValueAnswer value="0" />
   </div>
 );
 ReactDOM.render(element, document.getElementById('root'))
