@@ -73,21 +73,22 @@
 
 ## React環境構築
 ### ディレクトリ構造
-└── ___home___
-    └── ___koumoto___
-        └── ___TeamDev_SliverBakery___
-            ├── document
-            ├── presen
-            └── ___project___
-                ├── back
-                └── ___front___
-                    ├── production 
-                    └── ___develop___
-                        ├── Dockerfile
-                        ├── docker-compose.yml
-                        ├── project.bak
-                        └── project?
-
+```
+home
+└── koumoto
+    └── TeamDev_SliverBakery
+        ├── document
+        ├── presen
+        └── project
+            ├── back
+            └── front
+                ├── production 
+                └── develop
+                    ├── Dockerfile
+                    ├── docker-compose.yml
+                    ├── project.bak
+                    └── project?
+```
 ### Node.js Docker
 
 https://hub.docker.com/_/node
