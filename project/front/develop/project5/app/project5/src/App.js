@@ -19,6 +19,9 @@ import News from './this_news';
 import News_swiper from './news_swiper';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Home from './home';
+import Menu from './menu';
+import Coupon from './coupon';
+import Mypage from './mypage';
 
 function App() {
   return (
@@ -26,7 +29,10 @@ function App() {
       {/* <Home /> */}
       <BrowserRouter>
         <Routes>
-          <Route path={`/`} element={<Home />} />
+          <Route path={`/home`} element={<Home />} />
+          <Route path={`/menu`} element={<Menu />} />
+          <Route path={`/coupon`} element={<Coupon />} />
+          <Route path={`/my-page`} element={<Mypage />} />
         </Routes>
       </BrowserRouter>
       {/* <Router>
