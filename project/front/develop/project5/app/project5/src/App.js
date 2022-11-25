@@ -1,4 +1,4 @@
-// npm install方法 : docker-compose run --rm node sh -c "npm install bootstrap@5"
+// npm install方法 : docker-compose run --rm node sh -c ""
 // errorの場合: docker logs project名
 
 // rafce: new_file
@@ -6,10 +6,9 @@
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import { 
-  BrowserRouter as Router, 
+  BrowserRouter, 
   Route, 
-  Switch,
-  Link
+  Routes
 } from 'react-router-dom';
 import Footer from './footer';
 import Header from './header';
@@ -25,6 +24,11 @@ function App() {
   return (
     <>
       {/* <Home /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path={`/`} element={<Home />} />
+        </Routes>
+      </BrowserRouter>
       {/* <Router>
         <div>
           <nav>
