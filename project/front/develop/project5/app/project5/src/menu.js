@@ -1,10 +1,13 @@
 import React from 'react'
 import Footer from './footer'
+import Header from './header'
+import Gc from './components/get_category'
 
 const menu = () => {
   return (
     <>
-        <div>menu</div>
+        <Header />
+        <Gc />
         <Footer />
     </>
   )
