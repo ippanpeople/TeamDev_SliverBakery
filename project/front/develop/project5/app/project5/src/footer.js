@@ -6,7 +6,7 @@ import { ReactComponent as Menu } from './svg/tools.svg';
 
 const footer = () => {
   return (
-    <footer className='absolute w-375 h-20 left-0 top-732 bg-red-700'>
+    <footer className='w-640 sm:w-768 md:w-1024 lg:w-1280 2xl:w-1536 fixed h-20 left-0 bottom-0 bg-red-700 z-10'>
       <a href="/home" className='no-underline'>
         <Home className='absolute left-45 right-304 top-19 bottom-37 text-black' />
         <p className='absolute w-30 h-15 left-43 top-52 font-original not-italic font-extrabold text-10 text-black'>Home</p>
