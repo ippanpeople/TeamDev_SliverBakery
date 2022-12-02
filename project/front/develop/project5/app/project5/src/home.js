@@ -10,7 +10,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const home = () => {
   return (
-    <>
+    <div className='z-0'>
         <Header /> 
         
         <div class="flex flex-col">  
@@ -22,8 +22,8 @@ const home = () => {
         </div>
         
         <Footer />
-    </>
+    </div>
   )
 }
 
-export default home
+export default home;

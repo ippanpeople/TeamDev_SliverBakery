@@ -1,4 +1,4 @@
-// npm install方法 : docker-compose run --rm node sh -c ""
+//docker-compose run --rm node sh -c "npm install path-to-regexp --save"
 // errorの場合: docker logs project名
 
 // rafce: new_file
@@ -8,7 +8,8 @@ import ReactDOM from 'react-dom/client';
 import { 
   BrowserRouter, 
   Route, 
-  Routes
+  Routes,
+  Navigate
 } from 'react-router-dom';
 import Footer from './footer';
 import Header from './header';
@@ -28,29 +29,14 @@ function App() {
     <>
       {/* <Home /> */}
       <BrowserRouter>
-        <Routes>
-          <Route path={`/home`} element={<Home />} />
-          <Route path={`/menu`} element={<Menu />} />
-          <Route path={`/coupon`} element={<Coupon />} />
-          <Route path={`/my-page`} element={<Mypage />} />
-        </Routes>
+          <Routes>
+            <Route path='/' element={ <Navigate to="/home" /> } />
+            <Route path='/home' element={<Home />} />
+            <Route path='/menu' element={<Menu />} />
+            <Route path='/coupon' element={<Coupon />} />
+            <Route path='/my-page' element={<Mypage />} />
+          </Routes>
       </BrowserRouter>
-      {/* <Router>
-        <div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-            </ul>
-          </nav>
-          <Switch>
-            <Route path='/'>
-              <Recommends />
-            </Route>
-          </Switch>
-        </div>
-      </Router> */}
     </>
   )
 }
